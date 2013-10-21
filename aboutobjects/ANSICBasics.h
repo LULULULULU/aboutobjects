@@ -16,7 +16,17 @@
 #define C_SCALE 100.0
 #define F_SCALE (F_BOILING_POINT - F_FREEZING_POINT)
 
+enum ConversionType {
+    CelsiusToFahrenheit = 0,
+    FahrenheitToCelsius = 1
+};
+
 void RunANSICBasics01(void);
 void RunANSICBasics02(void);
+float ConvertToFahrenheit(float celsiusTemperature);
+float ConvertToCelsius(float fahrenheitTemperature);
+float ConvertTemperature(float temperature, enum ConversionType type);
+void ShowFahrenheit(float celsiusTemperature);
+void ShowConversion(float temperature, enum ConversionType type);
 
 #endif
