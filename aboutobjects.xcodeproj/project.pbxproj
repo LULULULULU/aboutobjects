@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		6C65D5901815877400041270 /* ANSICBasics01.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C65D58F1815877400041270 /* ANSICBasics01.c */; };
 		6C65D5921815896A00041270 /* ANSICBasics02.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C65D5911815896A00041270 /* ANSICBasics02.c */; };
+		6C65D5951815BE7700041270 /* Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C65D5941815BE7700041270 /* Pointers.c */; };
+		6C65D5981815BE8A00041270 /* Utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C65D5971815BE8A00041270 /* Utilities.c */; };
+		6C65D59B1815BE9900041270 /* Person.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C65D59A1815BE9900041270 /* Person.c */; };
 		6C83AE8B18157D0400D25295 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C83AE8A18157D0400D25295 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +31,12 @@
 		6C65D58E1815874E00041270 /* ANSICBasics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANSICBasics.h; sourceTree = "<group>"; };
 		6C65D58F1815877400041270 /* ANSICBasics01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ANSICBasics01.c; sourceTree = "<group>"; };
 		6C65D5911815896A00041270 /* ANSICBasics02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ANSICBasics02.c; sourceTree = "<group>"; };
+		6C65D5931815BE5900041270 /* Pointers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pointers.h; sourceTree = "<group>"; };
+		6C65D5941815BE7700041270 /* Pointers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Pointers.c; sourceTree = "<group>"; };
+		6C65D5961815BE8400041270 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		6C65D5971815BE8A00041270 /* Utilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Utilities.c; sourceTree = "<group>"; };
+		6C65D5991815BE9200041270 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6C65D59A1815BE9900041270 /* Person.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Person.c; sourceTree = "<group>"; };
 		6C83AE8718157D0400D25295 /* aboutobjects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = aboutobjects; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C83AE8A18157D0400D25295 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +75,12 @@
 				6C65D58E1815874E00041270 /* ANSICBasics.h */,
 				6C65D58F1815877400041270 /* ANSICBasics01.c */,
 				6C65D5911815896A00041270 /* ANSICBasics02.c */,
+				6C65D5931815BE5900041270 /* Pointers.h */,
+				6C65D5941815BE7700041270 /* Pointers.c */,
+				6C65D5961815BE8400041270 /* Utilities.h */,
+				6C65D5971815BE8A00041270 /* Utilities.c */,
+				6C65D5991815BE9200041270 /* Person.h */,
+				6C65D59A1815BE9900041270 /* Person.c */,
 			);
 			path = aboutobjects;
 			sourceTree = "<group>";
@@ -124,6 +139,9 @@
 				6C65D5901815877400041270 /* ANSICBasics01.c in Sources */,
 				6C83AE8B18157D0400D25295 /* main.c in Sources */,
 				6C65D5921815896A00041270 /* ANSICBasics02.c in Sources */,
+				6C65D5951815BE7700041270 /* Pointers.c in Sources */,
+				6C65D59B1815BE9900041270 /* Person.c in Sources */,
+				6C65D5981815BE8A00041270 /* Utilities.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
